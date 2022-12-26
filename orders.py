@@ -96,7 +96,7 @@ def post():
                    VALUES (?,?)"""
         cursor = conn.execute(sql, (mark_price ,prod_id))
         conn.commit()
-        return f"Order Successfully created with id:{cursor.lastrowid}",201
+        return f"Order is Successfully created with id:{cursor.lastrowid}",201
         
        
 
