@@ -76,7 +76,7 @@ This endpoint doesn't accept any parameter just returns the discount percentage 
                 }
             ]
               
-      5.2 ## Listing order endpoint by order id ## ((127.0.0.1:5000/orders/order_id) :
+      ## 5.2  Listing order endpoint by order id  ((127.0.0.1:5000/orders/order_id) : ##
              example:      GET -- 127.0.0.1:5000/orders/35
                
              result: {
