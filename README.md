@@ -54,7 +54,7 @@ This endpoint doesn't accept any parameter just returns the discount percentage 
    > flask run
    
  5. To access endpoints once the flask application is running copy the URL i.e 127.0.0.1:5000, open postman ( or any other rest client)
-   5.1 ## Order endpoint ## (127.0.0.1:5000/orders) :
+    5.1 ## Order endpoint ## (127.0.0.1:5000/orders) :
         a. To list the orders flask maps http request to python function. Here when we connect to flask server at 127.0.0.1:5000/orders then flask    check if there is match between the path provided and the defined function. Here it is mapped to @orders_pages.route('/', method = ['GET']. The function list order is called which takes the value from postman key value pair(in the 'form-data' option under 'body' tab)for 'name' key used as filter to show orders based on particular order.
         
   example:      GET -- 127.0.0.1:5000/orders
@@ -76,7 +76,7 @@ This endpoint doesn't accept any parameter just returns the discount percentage 
                 }
             ]
               
-      ## 5.2  Listing order endpoint by order id  ((127.0.0.1:5000/orders/order_id) : ##
+      ##5.2  Listing order endpoint by order id  ((127.0.0.1:5000/orders/order_id) : 
              example:      GET -- 127.0.0.1:5000/orders/35
                
              result: {
